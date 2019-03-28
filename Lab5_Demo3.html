@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <title>Lab5 Demo1</title>
+  <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+  <script type="text/babel" src="js/Script3.js"></script>
+  <link rel="stylesheet" href="css/StyleSheet3.css" />
+</head>
+<body>
+  <h2>Demo3</h2>
+  <div id="root"></div>
+  <spacer-15></spacer-15>
+  <indent-block>
+    As in the last demo:
+    <ul>
+      <li>
+        This React demo places the component script in Script2.js in a &quot;js&quot; folder
+        and the styles in StyleSheet2.css in a &quot;css&quot; folder.
+      </li>
+      <li>
+        The only script you need in the body is an execution script block at the end
+        to execute component code with a ReactDOM.render statement.
+      </li>
+      <li>
+        This means that we can save component scripts in site folders just like ordinary JavaScript
+        and stylesheets.  All we need to place on each page is a placeholder div, like the first one
+        just after body starts in this page, and a script block at the end that renders the control
+        or controls.
+      </li>
+    </ul>
+    This demo also defines three components in the script file: Hello, Goodbye, and App which holds the
+    first two.
+    <spacer-10></spacer-10>
+    <spacer-15></spacer-15>
+  </indent-block>
+  <script type="text/babel">
+    ReactDOM.render(
+    <App />, document.getElementById('root'));
+  </script>
+</body>
+</html>

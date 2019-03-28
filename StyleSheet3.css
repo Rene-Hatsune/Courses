@@ -1,0 +1,40 @@
+﻿
+body {
+  margin: 2em 5em;
+  font-size: large;
+  font-family: Tahoma;
+}
+
+spacer-15 {
+  display: block;
+  height: 15px;
+}
+
+indent-block {
+  display: block;
+  margin: 0px 25px;
+}
+
+.container {
+  display: table-cell;
+  border: 2px solid maroon;
+  padding: 1em 2em;
+}
+
+.app {
+  display: table-cell;
+  font-family: Tahoma;
+  background-color: #666;
+  color: white;
+  padding: 5px 25px;
+}
+.hello {
+  font-family: 'Comic Sans MS';
+  color: maroon;
+}
+
+.goodbye {
+  font-family: 'Comic Sans MS';
+  color: maroon;
+}
+
