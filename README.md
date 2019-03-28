@@ -1,2 +1,2 @@
 # Courses
-Course examples, tests, and homework in C++
+Course examples, tests, and homework
